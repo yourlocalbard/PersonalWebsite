@@ -1,0 +1,221 @@
+<html lang="en">
+<head>
+    <!--This is for the nav bar-->
+    <style>
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          font-size: 3vh;
+          background: rgb(255, 162, 191);
+          border-color: black;
+          border: 2px solid; 
+        }
+        
+        li {
+          float: left;
+        }
+        
+        li a {
+          display: block;
+          padding: 8px;
+          background-color: #dddddd;
+        }
+
+        img {
+          vertical-align: text-top;
+        }
+        </style>
+        </head>
+        <body>
+
+
+        
+        <ul>      
+          <input type="button" class="button" value="Home" onclick="window.location.href = 'home.html'">
+          <input type="button" class="button" value="About Us" onclick="window.location.href = 'aboutme.html'">
+        </ul>
+
+        <style>
+          * {
+            box-sizing: border-box;
+          }
+          
+          /* Create two equal columns that floats next to each other */
+          .column {
+            float: left;
+            width: 50%;
+            padding: 10px;
+            height: 600px; /* Should be removed. Only for demonstration */
+          }
+          
+          /* Clear floats after the columns */
+          .row:after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+          </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>
+    Team 7 Presents: Flavor Finder
+  </h1> 
+  
+  <div class="row">
+    <div class="column" style="background-color:#aaa;">
+      <h2>
+        <b>What is Flavor Finder?</b><br>
+      </h2>
+      <p1> 
+          Flavor Finder is more than a cooking application; it's the response of five students who were charged to find a solution to a real problem in their lives. 
+          During our first meeting, we sat down trying to come up with ideas. 
+          It was when one of our members mentioned that he was cooking during the lecture that we realized how little time most students have to cook. 
+          Furthermore, not many students are willing to take the time to learn how to cook, even though it's a useful skill, because it seems more immediately convenient to purchase fast food.<br>
+      </p1>
+      <br>
+      <p2>
+          Thus, the idea behind Flavor Finder was born; the mission was to create simple and affordable recipes based on what the users were interested in.
+          We took several factors into consideration such as cultural preferences, affordability, and accessibility when curating our lists of recipes.
+        </p2>
+    </div>
+    <div class="column" style="background-color:#aaa;">
+      <p1> 
+        <img src="photos/logo.png" alt="LOGO" height="400" width="400" >  
+        <br>
+        <br>
+        <br>
+        <b><a href="https://docs.google.com/document/d/1JggXk6xjbG6n4KI6idWq-2fQTc0naDgdUFh3ZAVDwTE/edit?usp=sharing">COME READ OUR PITCH!</a></b>
+      </p1>
+      <br>
+      <p2>
+          <br>
+      </p2>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="column" style="background-color:#aaa;">
+      <h2>
+        <b>Initial Wireframes</b><br>
+      </h2>
+      <p1> 
+          
+          <img src="photos/InitialWireframe.png" alt="INITIALWIREFRAME" height="200" width="400">
+          <br>
+
+          <br>
+      </p1>
+      <br>
+      <p2>
+          <br>
+      </p2>
+    </div>
+    <div class="column" style="background-color:#aaa;">
+      <h2>
+        <b>Follow Our Flavor Story: The Design Process</b><br>
+      </h2>
+      <p1> 
+        <b>The Big Idea</b><br>
+          With the goal of providing an efficient, yet fun design, our group had to go through several drafts of layouts before we picked our final result. 
+          Flavor Finder once started off as a simple wireframe, which slowly evolved to become the project that we have today. 
+          <br>
+      </p1>
+      <br>
+      <p2>
+          <b>First Draft Wireframing</b><br>
+          When creating the initial wireframing, we had to put together some of the basics of each website; 
+          between login capabilities, registration, and a home page, all of the basics were there. 
+          We then had to incorporate specialized features for our application, such as a search menu for the recipe options
+          and the recipe examples page. <br>          
+          <br>
+          We also incorporated a database functionality that would allow the users to store information such as reviews about their previous 
+          recipes, user preferences about the suggested recipes, and information that the user consents to giving such as email and password for their 
+          login info.
+          <br>
+          For our final wireframing we changed the preferences page so that it is less cluttered and more concise so that the user will have an easier time navigating
+          and using. The search result was also changed so that it displayed recipes instead of restaurants that the user can interact with. We got rid of the profile
+          window and instead added the recipe page which will show up when the user clicks on a recipe from the search result. 
+      </p2>
+    </div>
+    
+  </div>
+  <br>
+
+  <div class="row">
+    <div class="column" style="background-color:#aaa;">
+      <h2>
+        <b>Final Wireframes</b><br>
+      
+      </h2>
+      <p1>
+          <img src="photos/FinalWireframe.png" alt="INITIALWIREFRAME" height="200" width="400">
+          <br>
+
+          <br>
+      </p1>
+      <br>
+      <p2>
+          <br>
+      </p2>
+    </div>
+    <div class="column" style="background-color:#aaa;">
+      <h2>
+        <b>Reviews: Heuristic Evaluation and User Review</b><br>
+      </h2>
+      <p1> 
+        <b>Heuristic Evaluation</b><br>
+          During our Heuristic Evaluation, we caught a number of aesthetic issues that would also lead to usability problems. Some of these issues included misplaced buttons, 
+          plain coloring, and some functionalities that weren't very intuitive for the user. We fixed these issues and followed up by having a few people 
+          test out our application. 
+          <br>
+          <br>
+          One of our Heuristic issues pointed out was about the visibility of whether the user was logged in or not;
+          because our login and signup button didn't disappear when the user was logged in, it seemed confusing about whether or not the user was recognized as an actively logged in user.
+          We decided to change the design to make it so a user profile would appear when the user was logged in. <br><br>
+
+          Another important Heuristic pattern we encountered was issues regarding recognition over recall. Because some of our buttons or features didn't seem intuitive, 
+          a lot of our test users found it difficult to recognize different features, thus causing them to be overlooked or avoided. We decided to look into other sites
+          to see whether or not we could see any patterns, and we discovered certain features like having a consistant search bar was helpful for our users to locate recipies if 
+          one immediately came to mind.
+          
+          <br>
+          <br>
+          <b>User Reports</b><br>
+          Our users reported back some minor confusion in regards to the design, such as asking about where certain buttons would go and how the favorites 
+          feature works. We redesigned some of the formatting of the design, which allowed users to have a smoother and more accessible experience. 
+          <br>
+      </p1>
+      <br>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="column" style="background-color:#aaa;">
+      <p1>
+        <h2>
+          <b>Conclusion</b><br>
+        </h2>
+        <b>People Like Our App!</b><br>
+          Throughout our testing and trials, people have given positive reviews in regards to the application's intentions and ideals. They also reported 
+          from testimonials that they were fairly able to navigate the application without too much difficulty. Overall, people enjoyed using our app and 
+          it has a positive benefit on those who use it.           
+          <br>
+          <br>
+          <b>For Future Designers</b><br>
+          For the next steps in design, it would probably range in the field of aesthetics; overall, while the app is easy to navigate, it's still fairly 
+          clunky in nature and doesn't come off as incredibly polished. Because of this, our next step for the design would be to update the graphics so 
+          they are more sleek while still being as self-explanatory as possible. 
+          <br>
+      </p1>        
+    </div>
+  </div>
+  <br>  
+</body>
+</html>
